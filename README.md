@@ -233,10 +233,68 @@ Para conferir os dados oficiais:
 - [Portal de Dados Abertos da ANEEL](https://dadosabertos.aneel.gov.br/)
 - [Site oficial da ANEEL](https://www.aneel.gov.br/)
 
+## 🛠️ Tecnologias Utilizadas
+
+<div align="center">
+
+### Frontend
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+### Backend
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![Requests](https://img.shields.io/badge/Requests-2CA5E0?style=for-the-badge&logo=python&logoColor=white)](https://requests.readthedocs.io/)
+
+### APIs
+[![ANEEL](https://img.shields.io/badge/API_ANEEL-0066CC?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48L3N2Zz4=&logoColor=white)](https://dadosabertos.aneel.gov.br/)
+[![ViaCEP](https://img.shields.io/badge/ViaCEP-FF6B6B?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzguMTMgMiA1IDUuMTMgNSA5YzAgNS4yNSA3IDEzIDcgMTNzNy03Ljc1IDctMTNjMC0zLjg3LTMuMTMtNy03LTd6bTAgOS41Yy0xLjM4IDAtMi41LTEuMTItMi41LTIuNXMxLjEyLTIuNSAyLjUtMi41IDIuNSAxLjEyIDIuNSAyLjUtMS4xMiAyLjUtMi41IDIuNXoiLz48L3N2Zz4=&logoColor=white)](https://viacep.com.br/)
+
+</div>
+
 ## 📄 Licença
 
-Este projeto é livre para uso educacional e pessoal.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 🤝 Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+Contribuições são bem-vindas! Sinta-se à vontade para:
+
+- 🐛 Reportar bugs
+- 💡 Sugerir novas funcionalidades
+- 🔧 Enviar pull requests
+- ⭐ Dar uma estrela no projeto
+
+---
+
+<div align="center">
+
+## 👨‍💻 Desenvolvedor
+
+**Ítalo Marcony**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/italomarcony6532/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/italomarcony)
+
+### 📊 Sobre o Projeto
+
+[![GitHub Repo](https://img.shields.io/badge/Repositório-CalculadoraEnergia-blue?style=for-the-badge&logo=github)](https://github.com/italomarcony/CalculadoraEnergia)
+[![GitHub Stars](https://img.shields.io/github/stars/italomarcony/CalculadoraEnergia?style=for-the-badge)](https://github.com/italomarcony/CalculadoraEnergia/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/italomarcony/CalculadoraEnergia?style=for-the-badge)](https://github.com/italomarcony/CalculadoraEnergia/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/italomarcony/CalculadoraEnergia?style=for-the-badge)](https://github.com/italomarcony/CalculadoraEnergia/issues)
+
+---
+
+### ⚡ Dados Oficiais da ANEEL
+
+Este projeto utiliza dados **100% oficiais** da [API de Dados Abertos da ANEEL](https://dadosabertos.aneel.gov.br/)
+
+**Tarifas homologadas vigentes** | **Atualização automática** | **20 estados cobertos**
+
+---
+
+**Feito com ❤️ e ☕ por [Ítalo Marcony](https://github.com/italomarcony)**
+
+</div>
