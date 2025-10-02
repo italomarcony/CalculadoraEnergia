@@ -1,0 +1,147 @@
+{
+  "ultima_atualizacao": "October de 2025",
+  "fonte": "API de Dados Abertos da ANEEL",
+  "observacao": "Dados oficiais processados automaticamente",
+  "tarifas": [
+    {
+      "estado": "AL",
+      "distribuidora": "EQUATORIAL AL",
+      "tarifa": 0.74284,
+      "tusd": 0.4607,
+      "te": 0.28214
+    },
+    {
+      "estado": "AP",
+      "distribuidora": "CEA",
+      "tarifa": 0.72508,
+      "tusd": 0.5203,
+      "te": 0.20478
+    },
+    {
+      "estado": "BA",
+      "distribuidora": "COELBA",
+      "tarifa": 0.75868,
+      "tusd": 0.48573,
+      "te": 0.27295
+    },
+    {
+      "estado": "CE",
+      "distribuidora": "ENEL CE",
+      "tarifa": 0.63198,
+      "tusd": 0.39123,
+      "te": 0.24075
+    },
+    {
+      "estado": "ES",
+      "distribuidora": "EDP ES",
+      "tarifa": 0.62203,
+      "tusd": 0.32543,
+      "te": 0.2966
+    },
+    {
+      "estado": "MA",
+      "distribuidora": "EQUATORIAL MA",
+      "tarifa": 0.74066,
+      "tusd": 0.47072,
+      "te": 0.26994
+    },
+    {
+      "estado": "MG",
+      "distribuidora": "CEMIG-D",
+      "tarifa": 0.8271,
+      "tusd": 0.76816,
+      "te": 0.05894
+    },
+    {
+      "estado": "PA",
+      "distribuidora": "EQUATORIAL PA",
+      "tarifa": 0.87516,
+      "tusd": 0.60266,
+      "te": 0.2725
+    },
+    {
+      "estado": "PB",
+      "distribuidora": "EPB",
+      "tarifa": 0.60889,
+      "tusd": 0.33846,
+      "te": 0.27043
+    },
+    {
+      "estado": "PE",
+      "distribuidora": "Neoenergia PE",
+      "tarifa": 0.71449,
+      "tusd": 0.41381,
+      "te": 0.30068
+    },
+    {
+      "estado": "PI",
+      "distribuidora": "EQUATORIAL PI",
+      "tarifa": 0.75173,
+      "tusd": 0.5092,
+      "te": 0.24253
+    },
+    {
+      "estado": "PR",
+      "distribuidora": "COPEL-DIS",
+      "tarifa": 0.49243,
+      "tusd": 0.23942,
+      "te": 0.25301
+    },
+    {
+      "estado": "RJ",
+      "distribuidora": "LIGHT SESA",
+      "tarifa": 0.6846,
+      "tusd": 0.3831,
+      "te": 0.3015
+    },
+    {
+      "estado": "RN",
+      "distribuidora": "COSERN",
+      "tarifa": 0.67414,
+      "tusd": 0.36335,
+      "te": 0.31079
+    },
+    {
+      "estado": "RO",
+      "distribuidora": "ERO",
+      "tarifa": 0.66173,
+      "tusd": 0.42678,
+      "te": 0.23495
+    },
+    {
+      "estado": "RR",
+      "distribuidora": "CERAL-DIS",
+      "tarifa": 0.55539,
+      "tusd": 0.39499,
+      "te": 0.1604
+    },
+    {
+      "estado": "RS",
+      "distribuidora": "RGE",
+      "tarifa": 1.63458,
+      "tusd": 1.14222,
+      "te": 0.49236
+    },
+    {
+      "estado": "SC",
+      "distribuidora": "CELESC",
+      "tarifa": 0.33743,
+      "tusd": 0.27838,
+      "te": 0.05905
+    },
+    {
+      "estado": "SE",
+      "distribuidora": "SULGIPE",
+      "tarifa": 0.60495,
+      "tusd": 0.3864,
+      "te": 0.21855
+    },
+    {
+      "estado": "SP",
+      "distribuidora": "ELEKTRO",
+      "tarifa": 0.63101,
+      "tusd": 0.33738,
+      "te": 0.29363
+    }
+  ]
+}

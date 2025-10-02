@@ -1,0 +1,28 @@
+{
+  "mes_referencia": "outubro 2025",
+  "bandeira_atual": "Vermelha Patamar 1",
+  "valor_kwh": 0.04463,
+  "descricao": "Condições de geração menos favoráveis",
+  "bandeiras_disponiveis": {
+    "verde": {
+      "nome": "Verde",
+      "valor_kwh": 0.0,
+      "descricao": "Condições favoráveis de geração"
+    },
+    "amarela": {
+      "nome": "Amarela",
+      "valor_kwh": 0.01885,
+      "descricao": "Condições de geração menos favoráveis"
+    },
+    "vermelha_1": {
+      "nome": "Vermelha Patamar 1",
+      "valor_kwh": 0.04463,
+      "descricao": "Condições mais custosas de geração"
+    },
+    "vermelha_2": {
+      "nome": "Vermelha Patamar 2",
+      "valor_kwh": 0.07877,
+      "descricao": "Condições ainda mais custosas de geração"
+    }
+  }
+}

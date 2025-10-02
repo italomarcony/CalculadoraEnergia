@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups automáticos
+backend/data/*_backup_*.json
+
+# Documentação de desenvolvimento (manter local)
+API_ANEEL_DESCOBERTA.md
+ESCLARECIMENTO_DADOS.md
+MELHORIAS_IMPLEMENTADAS.md
+RESULTADO_TESTE_API.md
+ATUALIZACAO_DADOS.md
+INTEGRACAO_API_SUCESSO.md
+RESUMO_ORGANIZACAO.md
+
+# Scripts de teste/desenvolvimento
+backend/test_aneel_api.py
+backend/fetch_aneel_api.py
+backend/parse_aneel_csv.py
+
+# Logs
+*.log
+backend/update_log.txt
+
+# Claude Code
+.claude/
