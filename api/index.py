@@ -11,16 +11,29 @@ CORS(app)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, '..', 'backend', 'data')
 
+# Cache para dados
+_tarifas_cache = None
+_bandeira_cache = None
+
 # Carregar dados de tarifas
 def load_tarifas():
-    with open(os.path.join(DATA_DIR, 'tarifas.json'), 'r', encoding='utf-8') as f:
-        return json.load(f)
+    global _tarifas_cache
+    if _tarifas_cache is None:
+        tarifa_path = os.path.join(DATA_DIR, 'tarifas.json')
+        with open(tarifa_path, 'r', encoding='utf-8') as f:
+            _tarifas_cache = json.load(f)
+    return _tarifas_cache
 
 # Carregar bandeira tarifária atual
 def load_bandeira():
-    with open(os.path.join(DATA_DIR, 'bandeira.json'), 'r', encoding='utf-8') as f:
-        return json.load(f)
+    global _bandeira_cache
+    if _bandeira_cache is None:
+        bandeira_path = os.path.join(DATA_DIR, 'bandeira.json')
+        with open(bandeira_path, 'r', encoding='utf-8') as f:
+            _bandeira_cache = json.load(f)
+    return _bandeira_cache
 
+@app.route('/calculate', methods=['POST'])
 @app.route('/api/calculate', methods=['POST'])
 def calculate():
     try:
@@ -97,10 +110,16 @@ def calculate():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route('/health', methods=['GET'])
 @app.route('/api/health', methods=['GET'])
 def health():
-    return jsonify({'status': 'ok'})
+    return jsonify({'status': 'ok', 'message': 'API is running'})
 
-# Handler para Vercel
-def handler(event, context):
-    return app(event, context)
+# Handler para Vercel serverless
+if __name__ != '__main__':
+    # Vercel WSGI Handler
+    from werkzeug.wrappers import Request, Response
+
+    @Request.application
+    def application(request):
+        return app.wsgi_app(request.environ, lambda *args: None)
